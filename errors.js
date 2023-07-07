@@ -2,7 +2,7 @@
 
 const snackSelection = 'Pretzels';
 
-if (snackSelection = 'Pretzels') {
+if (snackSelection === 'Pretzels') { //initially used snackSelection = 'Pretzels assighnment operator instead of equality operator
   console.log("That'll be $1, please!");
 }
 
@@ -16,5 +16,10 @@ function first () {
 function second () {
   third();
 }
+
+function third(){
+  console.log("Now i'm a function")
+}
+
 
 first();
